@@ -24,6 +24,8 @@ app.post("/leetcode", async (req, res) => {
   }
 });
 
-app.listen(3001, () => {
-  console.log(" CORS bypass server running on http://localhost:3001");
+const PORT = process.env.PORT || 3001;
+app.listen(PORT, '0.0.0.0', () => {
+  console.log(`Server running on port ${PORT}`);
 });
+

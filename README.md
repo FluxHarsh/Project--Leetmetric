@@ -9,10 +9,10 @@ LeetMetric is a dynamic web app that fetches and visualizes LeetCode problem-sol
 
 This project was inspired by [CodeHelp's Web Dev series by Love Babbar](https://www.youtube.com/playlist?list=PLDzeHZWIZsTo0OcsBvC-Xy8JmHc6u2oos), and extended with:
 
-- Real-time API communication with LeetCode
-- User error handling for invalid usernames
-- Responsive design enhancements
-- Clean project structure and separation of concerns
+- Real-time API communication with LeetCode.
+- User error handling for invalid usernames.
+- Responsive design enhancements.
+- Clean project structure and separation of concerns.
 
 ---
 

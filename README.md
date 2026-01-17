@@ -1,4 +1,4 @@
-# LeetMetric 🚀📈  
+# LeetMetric   
 > Track LeetCode progress in real-time — built with Node.js & JavaScript
 
 LeetMetric is a dynamic web app that fetches and visualizes LeetCode problem-solving stats by username. From handling API calls to showing results live in a clean UI, it's a full-stack project that bridges frontend interactivity with backend logic.

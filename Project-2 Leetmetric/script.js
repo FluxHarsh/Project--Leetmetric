@@ -85,7 +85,6 @@ circle.style.background = `conic-gradient(#8e2de2 ${degree}deg,rgb(28, 28, 28) $
       searchButton.textContent = "Search";
     }
   }
-
   searchButton.addEventListener("click", () => {
     const username = usernameInput.value.trim();
     if (username) {

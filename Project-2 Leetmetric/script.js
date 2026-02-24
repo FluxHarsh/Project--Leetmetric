@@ -64,7 +64,6 @@ circle.style.background = `conic-gradient(#8e2de2 ${degree}deg,rgb(28, 28, 28) $
 
       const totalQuestions = parsedData.allQuestionsCount;
       const solvedQuestions = parsedData.matchedUser.submitStatsGlobal.acSubmissionNum;
-
       const getStats = (difficulty) => {
         const total = totalQuestions.find(q => q.difficulty === difficulty)?.count || 0;
         const solved = solvedQuestions.find(q => q.difficulty === difficulty)?.count || 0;

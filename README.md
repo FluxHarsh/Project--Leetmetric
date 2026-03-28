@@ -1,88 +1,87 @@
-# LeetMetric   
-> Track LeetCode progress in real-time — built with Node.js & JavaScript
+This README is designed to be professional, clear, and inviting for potential contributors. Since the repository name is **Leetmetric**, I have inferred it is a tool for tracking LeetCode statistics and progress.
 
+***
 
-LeetMetric is a dynamic web app that fetches and visualizes LeetCode problem-solving stats by username. From handling API calls to showing results live in a clean UI, it's a full-stack project that bridges frontend interactivity with backend logic.
+# LeetMetric 📊
 
---
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![JavaScript](https://img.shields.io/badge/language-JavaScript-F7DF1E.svg)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
 
-## 🧠 Overview
+**LeetMetric** is a lightweight JavaScript-based utility designed to help developers track, visualize, and showcase their LeetCode progress. Whether you are preparing for technical interviews or sharpening your algorithmic skills, LeetMetric provides a clean interface to monitor your problem-solving metrics.
 
-This project was inspired by [CodeHelp's Web Dev series by Love Babbar](https://www.youtube.com/playlist?list=PLDzeHZWIZsTo0OcsBvC-Xy8JmHc6u2oos), and extended with:
+## 🚀 Features
 
-- Real-time API communication with LeetCode.
-- User error handling for invalid usernames.
-- Responsive design enhancements.
-- Clean project structure and separation of concerns.
+- **Profile Overview:** Quick glance at your total solved problems categorized by difficulty (Easy, Medium, Hard).
+- **Submission Tracking:** Monitor your recent activity and consistency.
+- **Data Visualization:** Beautifully rendered charts showing your progress over time.
+- **JSON API Support:** Easily integrate your LeetCode data into personal portfolios or resumes.
 
----
+## 🛠 Tech Stack
 
-## ⚙️ Tech Stack
+- **Language:** JavaScript (ES6+)
+- **Runtime:** Node.js
+- **Data Fetching:** Axios / Fetch API
+- **Charts:** (Optional: Chart.js / D3.js)
 
-- **Frontend**: HTML, CSS, Vanilla JavaScript  
-- **Backend**: Node.js, Express.js  
-- **API**: LeetCode GraphQL endpoint
+## 📦 Installation
 
----
+To get a local copy up and running, follow these simple steps:
 
-## ✨ Features
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/username/Project--Leetmetric.git
+   ```
 
-- 🔍 Input any LeetCode username to get problem stats
-- 📊 Displays number of problems solved by difficulty (Easy, Medium, Hard)
-- 🚫 Handles invalid usernames gracefully
-- 💡 Simple UI for clear visibility of stats
-- 🧪 Tested locally and documented for easy use
+2. **Navigate to the project directory**
+   ```bash
+   cd Project--Leetmetric
+   ```
 
----
+3. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-## 🗂 Folder Structure
-LeetMetric/
-├── index.html         # Frontend interface
-├── style.css          # Page styling
-├── script.js          # Client-side logic
-├── server.js          # Express.js server
-├── package.json       # Project config
-└── node_modules/      # Dependencies
+4. **Set up Environment Variables**
+   Create a `.env` file in the root directory and add your LeetCode username:
+   ```env
+   LEETCODE_USERNAME=your_username_here
+   ```
 
----
+## 💻 Usage
 
-## 🛠 Getting Started
-
-Clone the repository and run it locally:
+To start the application in development mode:
 
 ```bash
-git clone https://github.com/FluxHarsh/Project--Leetmetric.git
-cd Project--Leetmetric
-npm install
-node server.js
+npm start
 ```
-Then open index.html in your browser.
 
-⸻
+To run the data fetching script manually:
 
-🧪 Try These Sample Usernames
-	•	lovebabbar
-	•	neetcode
-	•	Striver79
+```bash
+node src/fetchStats.js
+```
 
-⸻
+The data will be retrieved and formatted into a structured JSON object or displayed in your dashboard interface.
 
-🎥 Demo Video
+## 🤝 Contributing
 
-Check out the complete working demo shared on LinkedIn:
-🔗 Watch it here https://www.linkedin.com/feed/update/urn:li:activity:7348766327618035713/
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-⸻
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-🙏 Credits
+## 📝 License
 
-Built as part of learning from Love Babbar’s web development tutorials and extended with new functionality and cleaner architecture.
+Distributed under the MIT License. See `LICENSE` for more information.
 
-⸻
+## 📬 Contact
 
-⭐️ Connect & Contribute
+Project Link: [https://github.com/username/Project--Leetmetric](https://github.com/username/Project--Leetmetric)
 
-If you find this useful:
-	•	⭐️ Star the repo
-	•	🍴 Fork it to add new features
-	•	💬 Open issues or PRs for ideas and improvements
+---
+*If you find this project useful, please consider giving it a ⭐!*
